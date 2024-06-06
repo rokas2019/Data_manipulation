@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "A package for common data manipulation operations in Python"
 authors = ["Rokas Galdikas <rokas.galdikas@yahoo.com>"]
 readme = "README.md"
+repository = "https://github.com/TuringCollegeSubmissions/rgaldi-DE2v2.1.5/tree/main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
