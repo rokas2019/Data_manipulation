@@ -30,7 +30,7 @@ A package for common data manipulation operations in Python.
 
 ## **Usage**
    ```
-   from data_manipulation import transpose2d, window1d
+   from rokas_data_manipulation import transpose2d, window1d, convolution2d
    
    # Example usage
    matrix = [[1, 2, 3], [4, 5, 6]]
@@ -40,6 +40,18 @@ A package for common data manipulation operations in Python.
    array = [1, 2, 3, 4, 5, 6, 7]
    windows = window1d(array, size=2, shift=2, stride=2)
    print(windows) 
+   
+   input_matrix = np.array([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+    ])
+   kernel = np.array([
+    [1, 0],
+    [0, -1]
+    ])
+   convolution = convolution2d(input_matrix, kernel, stride = 1)
+   print(convolution)
    ```
 ### **Testing**:
    ```
