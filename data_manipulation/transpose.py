@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 
 def transpose2d(input_matrix: list[list[float]]) -> list[list[float]]:
     """
