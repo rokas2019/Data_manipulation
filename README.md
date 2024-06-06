@@ -28,7 +28,7 @@ A package for common data manipulation operations in Python.
    ``` 
    poetry shell
 
-### **Usage**:
+## **Usage**
    ```
    from data_manipulation import transpose2d, window1d
    
