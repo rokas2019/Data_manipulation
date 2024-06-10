@@ -4,10 +4,10 @@ def transpose2d(input_matrix: list[list[float]]) -> list[list[float]]:
     Transposes a 2D matrix.
 
     Args:
-    input_matrix (list[list[float]]): Input 2D matrix.
+        input_matrix (list[list[float]]): Input 2D matrix.
 
     Returns:
-    list[list[float]]: Transposed matrix.
+        list[list[float]]: Transposed matrix.
     """
     # Validate input types and values
     if not (isinstance(input_matrix, list) and all(isinstance(row, list) for row in input_matrix)):

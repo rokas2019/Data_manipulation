@@ -7,13 +7,13 @@ def window1d(input_array: list | np.ndarray, size: int, shift: int = 1, stride: 
     Generate time series windows.
 
     Args:
-    input_array (list | np.ndarray): Input 1D array.
-    size (int): Size of the window.
-    shift (int): Positive integer that determines the shift (step size) between different windows.
-    stride (int): Positive integer that determines the stride (step size) within each window.
+        input_array (list | np.ndarray): Input 1D array.
+        size (int): Size of the window.
+        shift (int): Positive integer that determines the shift (step size) between different windows.
+        stride (int): Positive integer that determines the stride (step size) within each window.
 
     Returns:
-    list[list | np.ndarray]: List of time series windows.
+        list[list | np.ndarray]: List of time series windows.
     """
     # Validate input types and values
     if not isinstance(input_array, (list, np.ndarray)):

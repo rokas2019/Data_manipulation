@@ -6,12 +6,12 @@ def convolution2d(input_matrix: np.ndarray, kernel: np.ndarray, stride: int = 1)
     Perform 2D cross-correlation.
 
     Args:
-    input_matrix (np.ndarray): Input 2D matrix.
-    kernel (np.ndarray): 2D kernel matrix.
-    stride (int): Positive integer that determines the stride (step size) within each window.
+        input_matrix (np.ndarray): Input 2D matrix.
+        kernel (np.ndarray): 2D kernel matrix.
+        stride (int): Positive integer that determines the stride (step size) within each window.
 
     Returns:
-    np.ndarray: Resulting matrix after cross-correlation.
+        np.ndarray: Resulting matrix after cross-correlation.
     """
     # Validate input types and values
     if not isinstance(input_matrix, np.ndarray):

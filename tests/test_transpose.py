@@ -1,4 +1,4 @@
-from transpose import transpose2d
+from rokas_data_manipulation.transpose import transpose2d
 
 
 def test_transpose2d():

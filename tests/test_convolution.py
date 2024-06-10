@@ -1,6 +1,6 @@
 import numpy as np
 
-from convolution import convolution2d
+from rokas_data_manipulation.convolution import convolution2d
 
 
 def test_convolution2d():

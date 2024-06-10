@@ -1,6 +1,7 @@
 # Data Manipulation
 
 A package for common data manipulation operations in Python.
+Package is published on [PyPI](https://pypi.org/project/rokas-data-manipulation/)
 
 ## Features
 

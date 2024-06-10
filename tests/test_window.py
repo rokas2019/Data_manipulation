@@ -1,5 +1,5 @@
 import numpy as np
-from window import window1d
+from rokas_data_manipulation.window import window1d
 
 
 def test_window1d():
