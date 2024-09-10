@@ -21,7 +21,7 @@ Package is published on [PyPI](https://pypi.org/project/rokas-data-manipulation/
 1. **Clone the repository**:
 
    ```
-   git clone https://github.com/TuringCollegeSubmissions/rgaldi-DE2v2.1.5.git
+   git clone https://github.com/rokas2019/Data_manipulation.git
 2. **Install dependencies**:
    ```
    poetry install
